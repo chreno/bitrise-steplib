@@ -6,7 +6,7 @@ description: |
 website: https://github.com/chreno/bitrise-step-android-build-performance-checker
 source_code_url: https://github.com/chreno/bitrise-step-android-build-performance-checker
 support_url: https://github.com/chreno/bitrise-step-android-build-performance-checker/issues
-published_at: 2020-10-26T13:11:45.80923+01:00
+published_at: 2020-10-26T13:16:46.938111+01:00
 source:
   git: https://github.com/chreno/AndroidBuildPerfStep.git
   commit: da12dc9c632b88881ed60cb3ff1d1003e77bfb22
