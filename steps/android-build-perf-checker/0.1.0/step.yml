@@ -1,0 +1,52 @@
+title: Android Build Performance Checker
+summary: |
+  TODO
+description: |
+  TODO
+website: https://github.com/chreno/bitrise-step-android-build-performance-checker
+source_code_url: https://github.com/chreno/bitrise-step-android-build-performance-checker
+support_url: https://github.com/chreno/bitrise-step-android-build-performance-checker/issues
+published_at: 2020-10-26T12:36:39.588314+01:00
+source:
+  git: https://github.com/chreno/AndroidBuildPerfStep.git
+  commit: da12dc9c632b88881ed60cb3ff1d1003e77bfb22
+host_os_tags:
+- osx-10.10
+- ubuntu-16.04
+type_tags:
+- utility
+toolkit:
+  go:
+    package_name: github.com/chreno/bitrise-step-android-build-performance-checker
+deps:
+  brew:
+  - name: git
+  - name: wget
+  apt_get:
+  - name: git
+  - name: wget
+is_requires_admin_user: true
+is_always_run: false
+is_skippable: false
+run_if: ""
+inputs:
+- example_step_input: Default Value - you can leave this empty if you want to
+  opts:
+    description: |
+      Description of this input.
+
+      Can be Markdown formatted text.
+    is_expand: true
+    is_required: true
+    summary: Summary. No more than 2-3 sentences.
+    title: Example Step Input
+    value_options: []
+outputs:
+- EXAMPLE_STEP_OUTPUT: null
+  opts:
+    description: |
+      Description of this output.
+
+      Can be Markdown formatted text.
+    summary: Summary. No more than 2-3 sentences.
+    title: Example Step Output
